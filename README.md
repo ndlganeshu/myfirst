@@ -6,7 +6,7 @@ testing the github in my local
 
 1. Add react-router-dom@6.4.0 
 2. created new file myRoutes.js with the below content
-```
+```javascript
 import {
   createBrowserRouter,
   Link,
@@ -32,7 +32,7 @@ const router = createBrowserRouter([
 export default router;
 ```
 3. index.js add the RouteProvider as below
-```
+```javascript
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import {
